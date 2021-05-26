@@ -1,0 +1,41 @@
+html,
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-size: 62.5%;
+  color: black;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+}
+
+.search-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60vw;
+  margin: 2rem auto;
+}
+#search-area {
+  width: 65vw;
+  height: 5vh;
+  font-size: 2.25rem;
+  padding: 0.5rem;
+  margin: 3rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+.submit-button {
+  width: 20vw;
+  font-size: 2rem;
+  padding: 1rem;
+  background-color: rgb(88, 86, 238);
+  color: white;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.submit-button:hover {
+  background-color: rgb(92, 192, 231);
+}
+.submit-button:active {
+  transform: translateY(0.9rem);
+}
